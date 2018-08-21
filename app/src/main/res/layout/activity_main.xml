@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/Soa"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit :" />
+    <EditText
+        android:id="@+id/nhapFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/Celsius"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Celsius :" />
+    <EditText
+        android:id="@+id/nhapCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        >
+
+    <Button
+        android:id="@+id/ConvertToCelsius"
+        android:layout_width="384dp"
+        android:layout_height="100dp"
+        android:text="Convert To Celsius" />
+    android:layout_gravity="center_vertical"/>
+    <Button
+        android:id="@+id/ConvertToFahrenheit"
+        android:layout_width="384dp"
+        android:layout_height="100dp"
+        android:text="Convert To Fahrenheit" />
+    android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/Clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_gravity="center_horizontal"/>/>
+
+
+
+
+</LinearLayout>
